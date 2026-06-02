@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Open Source README"
+  short_description: "Polish GitHub open-source README files"
+  default_prompt: "Use $github-open-source-readme to turn this project into a polished GitHub open-source README."
