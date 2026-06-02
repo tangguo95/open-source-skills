@@ -9,11 +9,12 @@
 ![Languages](https://img.shields.io/badge/README-English%20%7C%20Chinese-16A34A)
 ![License](https://img.shields.io/badge/License-Mixed-lightgrey)
 
-A reusable collection of agent skills for frontend design, skill discovery, README writing, OceanBase Oracle SQL optimization, personal coding habits, and skill authoring.
+A personal collection of frequently used, generally reusable agent skills for frontend design, skill discovery, README writing, OceanBase Oracle SQL optimization, personal coding habits, and skill authoring.
 
 ## Highlights
 
-- Six ready-to-copy skill folders, each centered on a practical coding-agent workflow.
+- Six ready-to-copy skill folders collected from personal daily use, each centered on a practical coding-agent workflow.
+- Kept intentionally general where possible, so the skills can be reused across different projects instead of being tied to one codebase.
 - Bilingual project documentation for English and Chinese readers.
 - Clear attribution notes for third-party or adapted skills.
 - Preserved per-skill license files where bundled upstream.
@@ -105,6 +106,10 @@ Use $oceanbase-oracle-sql-optimize to review this slow report SQL.
 
 No. This is a mixed collection. Some skills are personal workflows, and some are third-party or adapted from public skill ecosystems.
 
+### Are these project-specific skills?
+
+No. The repository is intended as a personal, commonly used, general-purpose skill library. Some skills reflect the author's workflow preferences, but they are written to be reusable across projects where possible.
+
 ### Which skills appear to be third-party?
 
 `frontend-design` and `skill-creator` include Apache-2.0 license text and Claude/Anthropic-oriented wording, so they are treated as Anthropic-derived third-party skills. `find-skills` closely matches public listings for the `find-skills` skill from `vercel-labs/skills`.
@@ -138,4 +143,3 @@ This repository is a mixed-source skill collection:
 - Skills with their own `LICENSE.txt` are governed by that license.
 - Third-party or adapted skills without a bundled license should be checked against their upstream repository before redistribution.
 - Original skills in this repository may be reused for personal agent workflows unless a stricter license is added later.
-

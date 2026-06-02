@@ -9,11 +9,12 @@
 ![Languages](https://img.shields.io/badge/README-English%20%7C%20Chinese-16A34A)
 ![License](https://img.shields.io/badge/License-Mixed-lightgrey)
 
-这是一个可复用的 agent skills 集合，覆盖前端设计、技能发现、开源 README 编写、OceanBase Oracle SQL 优化、个人开发习惯，以及 skill 创建与打包。
+这是一个个人常用、同时尽量保持通用可复用的 agent skills 集合，覆盖前端设计、技能发现、开源 README 编写、OceanBase Oracle SQL 优化、个人开发习惯，以及 skill 创建与打包。
 
 ## Highlights
 
-- 6 个可直接复制使用的 skill 文件夹，每个都围绕一个真实 coding-agent 工作流。
+- 6 个来自个人日常使用的 skill 文件夹，每个都围绕一个真实 coding-agent 工作流。
+- 尽量保持通用写法，避免绑定单个项目，方便在不同代码库之间复用。
 - 提供英文和中文 README，方便公开展示和中文用户阅读。
 - 对第三方或改造 skill 标注来源判断，避免误写成原创。
 - 保留上游自带的 per-skill license 文件。
@@ -105,6 +106,10 @@ Use $oceanbase-oracle-sql-optimize to review this slow report SQL.
 
 不是。这是一个混合来源集合，里面既有个人工作流，也有第三方或基于公开 skill 改造的内容。
 
+### 这些 skill 是针对某个单独项目的吗？
+
+不是。这个仓库定位是个人常用的通用 skill library。部分 skill 会体现作者自己的工作习惯，但整体目标是尽量跨项目复用，而不是绑定某个具体代码库。
+
 ### 哪些 skill 看起来是第三方？
 
 `frontend-design` 和 `skill-creator` 带有 Apache-2.0 许可证文本，并包含 Claude/Anthropic 风格措辞，因此按 Anthropic 衍生第三方 skill 处理。`find-skills` 与 `vercel-labs/skills` 中公开的 `find-skills` 内容高度一致。
@@ -138,4 +143,3 @@ Use $oceanbase-oracle-sql-optimize to review this slow report SQL.
 - 带有独立 `LICENSE.txt` 的 skill，按该目录内许可证执行。
 - 没有内置许可证的第三方或改造 skill，建议在二次分发前确认其上游仓库条款。
 - 本仓库中的原创 skill 可用于个人 agent 工作流；如后续添加更明确的许可证，以新许可证为准。
-
